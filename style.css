@@ -1,0 +1,57 @@
+/*
+Theme Name: beauty
+Description:  beauty theme
+*/
+.period__card-price span{
+	font-size:35px;
+}
+div.warp-page{
+	width: 100%;
+	height: 125px;
+	background: #1f1f1f;
+}
+/*Blog*/
+.blog_card{
+	-webkit-box-shadow: 0 0 65px rgba(138, 79, 31, 0.2);
+    box-shadow: 0 0 65px rgba(138, 79, 31, 0.2);
+	position: relative;
+	background-color: #ffffff;
+	padding: 25px 15px 10px 15px;
+	padding-bottom: 80px;
+}
+.blog-btn{
+	-webkit-box-shadow: 0 0 65px rgba(138, 79, 31, 0.2);
+    box-shadow: 0 0 65px rgba(138, 79, 31, 0.2);
+	bottom:0;
+	left: 50%;
+	position: relative;
+    width: 282px;
+    display: inline-block;
+	font-size: 19px;
+    font-weight: bold;
+	-webkit-border-radius: 46px; 
+    border-radius: 46px;
+    background-image: -webkit-linear-gradient(35deg, #7414a7 20%, #d72f76 68%);
+    background-image: -o-linear-gradient(35deg, #7414a7 20%, #d72f76 68%);
+    background-image: linear-gradient(55deg, #7414a7 20%, #d72f76 68%);
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+    color: #ffffff;
+    border: none;
+}
+.blog-btn:hover{
+	bottom: -8px;
+}
+
+@media screen and (max-width: 768px){
+	.blog-btn{
+		bottom:50px;
+		left: 0;
+	}	
+}
+@media screen and (min-width: 768px){
+	.extension-2{
+		padding: 0;
+	}	
+}
