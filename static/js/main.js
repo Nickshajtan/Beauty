@@ -11,33 +11,6 @@ $(document).ready(function () {
         reject: { msie: true, edge: true },
         display: ['firefox', 'chrome', 'opera']
     }); 
-/*
-    $(".main-form").submit(function (e) {
-        e.preventDefault();
-        $.ajax({
-            type: "POST",
-            url: "mail.php",
-            data: $(this).serialize()
-        }).done(function (data) {
-            $('input[type=number]').val('');
-            window.location = 'http://1001resnitsa.ru/thanks.html';
-        });
-        return false;
-    });
-
- $("#header-form").submit(function (e) {
-        e.preventDefault();
-        $.ajax({
-            type: "POST",
-            url: "mail.php",
-            data: $(this).serialize()
-        }).done(function (data) {
-            $('input[type=number]').val('');
-            window.location = 'http://1001resnitsa.ru/thanks.html';
-        });
-        return false;
-    });
-*/
 	$(".main-form").submit(function(e){
 		e.preventDefault();
 		$.ajax({
@@ -197,7 +170,7 @@ $(document).ready(function () {
         }
     }
 
-    var tok = '7419202727.b5afa4f.9d920fdf8d89407e8ac4cfd0cbe7b8b6', // access Token
+    var tok = '', // access Token
         userid = 7419202727, // ID пользователя, можно выкопать в исходном HTML, можно использовать спец. сервисы либо просто смотрите следующий пример :)
         kolichestvo = 7; // ну это понятно - сколько фоток хотим вывести
 
